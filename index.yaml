@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  neuvector-ui-ext:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/display-name: NeuVector UI Extension
+      catalog.cattle.io/kube-version: '>= v1.16.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.10.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+      catalog.cattle.io/ui-extensions-version: '>= 3.0.0 < 4.0.0'
+    apiVersion: v2
+    appVersion: 2.1.2
+    created: "2025-02-13T11:12:48.626241+08:00"
+    description: '[Leo]NeuVector extension for Rancher Manager'
+    digest: f64f7affc2ea19b63f013fd05f7b1dad14c5c6d046d79d8bae37e899a2be8de1
+    icon: https://raw.githubusercontent.com/neuvector/manager-ext/main/pkg/neuvector-ui-ext/nv-icon.svg
+    name: neuvector-ui-ext
+    type: application
+    urls:
+    - assets/neuvector-ui-ext/neuvector-ui-ext-2.1.2.tgz
+    version: 2.1.2
+generated: "2025-02-13T11:12:48.626035+08:00"
